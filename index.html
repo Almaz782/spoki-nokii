@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Главная страница</title>
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      background-color: #ffe4e1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      font-family: Arial, sans-serif;
+      user-select: none;
+    }
+    a {
+      text-decoration: none;
+      color: inherit;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      cursor: pointer;
+    }
+    img {
+      max-width: 200px;
+      height: auto;
+      transition: transform 0.2s;
+    }
+    img:hover {
+      transform: scale(1.1);
+    }
+    .caption {
+      margin-top: 15px;
+      font-size: 24px;
+      color: #b22222;
+    }
+  </style>
+</head>
+<body>
+  <a href="azza.html">
+    <img src="LUBLU.jpeg">
+    <div class="caption">Нажми на меня</div>
+  </a>
+</body>
+</html>
